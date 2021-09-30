@@ -16,22 +16,22 @@ var specChar = ["!","#","$","%","&","(",")","*",]
   prompt("Please, enter a number between: 8 - 128.", "ENTER HERE");
   } 
   var psw = [];
-  var spcChoice = window.confirm("Would you like to include special characters in your password?");
+  var spcChoice = window.confirm("Would you like to include special characters in your password? (Example: !#$%&(*))");
   if (spcChoice === true) {
   psw = psw.concat(specChar); 
   console.log(psw);
   } 
-  var numChoice = window.confirm("Would you like to include numbers in your password?");
+  var numChoice = window.confirm("Would you like to include numbers in your password? (Example: 1234)");
    if (numChoice === true){
     psw = psw.concat(number); 
     console.log(psw);
    }
-    var upcChoice = window.confirm("Would you like to include uppercase letters in your password?");
+    var upcChoice = window.confirm("Would you like to include UPPERCASE letters in your password? (Example: ABCDEF)");
    if (upcChoice === true ){
     psw = psw.concat(upperCase);
     console.log(psw);
   }
-    var lcChoice = window.confirm("Would you like to include lowercase letters in your password?");
+    var lcChoice = window.confirm("Would you like to include lowercase letters in your password? (Example: abcdef)");
    if (lcChoice === true){
     psw = psw.concat(lowerCase); 
     console.log(psw);
