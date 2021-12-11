@@ -1,6 +1,6 @@
 # Password Generator 
 
-[deployed link](google.com)
+[https://jayladenae.github.io/Password-Generator/](https://jayladenae.github.io/Password-Generator/)
 
 ## Description
 
@@ -24,7 +24,7 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
-![screenshot]()
+![screenshot](password-gen-screenshot.png)
 
 ## License
 
